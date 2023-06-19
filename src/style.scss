@@ -1,0 +1,163 @@
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 .4rem .8rem #0001;
+  width: 100%;
+  padding: 10px;
+
+}
+.nav-left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo{
+  width: 40px;
+}
+
+.nav-item{
+  display: flex;
+  list-style: none;
+}
+
+.nav-item > li{
+  padding: 10px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 .4rem .8rem #0001;
+  padding: 3rem;
+}
+
+.content > ul >li{
+  padding: 10px;
+  font-size: 18px;
+}
+
+::marker{
+  color: deepskyblue ;
+  font-size: 1.4rem;
+}
+
+
+//CARD CSS
+
+.card{
+  width: 20rem;
+  background-color: #393646 ;
+  border-radius: 0.4rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-info h1{
+  margin-top:1rem;
+  color:white;
+  font-size: x-large;
+}
+.card-info h2{
+  margin-top:-0.8rem;
+  color:white;
+  font-size: medium;
+  font-weight: normal;
+  color: chocolate;
+}
+.card-info h3{
+  margin-top:0.2rem;
+  color:white;
+  font-size: small;
+  font-weight: normal;
+  color: ghostwhite;
+}
+.card img{
+  width: 100%;
+  border-top-left-radius: 0.4rem ;
+  border-top-right-radius: 0.4rem ;
+  object-fit: cover;
+}
+
+.card-button{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  gap:2rem;
+}
+
+.card-button > button{
+  width: 110px;
+  padding: 0.5rem 1.5rem;
+  border-radius:5px;
+  border: none;
+  font-weight: bold;
+  align-items: center;
+  gap:5px;
+}
+
+.card-button-email{
+  display: flex;
+  background-color: whitesmoke;
+}
+.card-button-linkedIn{
+  background-color: dodgerblue;
+  color:white;
+}
+.card-about{
+  margin: 1.5rem 2rem;
+}
+.card-about >h1{
+  font-size: medium;
+  color: whitesmoke;
+}
+.card-interest > h1{
+  font-size: medium;
+  color: whitesmoke;
+}
+.card-interest{
+  margin-top: -1.5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.card-about> h3 {
+  font-size: x-small;
+  color:#fffb;
+}
+.card-interest > h3{
+  font-size: x-small;
+  color:#fffb;
+}
+
+.card-footer{
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #0004;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+
+.card-footer > button{
+
+  background-color: transparent;
+  color: #fffb;
+  border: none;
+  font-size: x-large;
+}
+
