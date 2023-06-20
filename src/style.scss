@@ -193,6 +193,23 @@
   box-shadow: 0 0.4rem 0.8rem #0001;
 
 }
+.product-card-badge{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding: 10px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: small;
+  font-weight: bold;
+  color: whitesmoke;
+  height: fit-content;
+  width: fit-content;
+
+
+}
 .product-card-info{
   display: flex;
   align-items: center;

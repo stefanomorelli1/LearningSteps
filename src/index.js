@@ -15,7 +15,12 @@ const image = require('./component/images/photo-1633332755192-727a05c4013d.jpeg'
 
 function App() {
     const info = infos.map(element => {
-        return <ProductCard image={image} name={element.name} number={element.number} email={element.email} />
+        return <ProductCard
+            image={image}
+            name={element.name}
+            number={element.number}
+            email={element.email}
+            rank={element.rank} />
     });
     return(
         <div className="container">
