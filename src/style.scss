@@ -313,7 +313,53 @@
 
 .content-meme >button:hover {
   box-shadow: 0 0.4rem 0.8rem #000b;
+  cursor: pointer;
 }
 .content-meme >button:active {
   box-shadow: 0 0.4rem 0.8rem #000f;
 }
+
+
+.content-meme-image img{
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+
+
+}
+
+.content-meme-image{
+  position: relative;
+
+
+}
+
+.content-meme-image > h1{
+  position:absolute;
+  color: white;
+  font-size: 32px;
+  text-stroke: 2px black;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  text-shadow: -1px -1px 0 black,
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  1px 1px 0 black;
+  letter-spacing: -1px;
+}
+
+.content-meme-top-text{
+  top: 5%;
+}
+
+.content-meme-bottom-text{
+  bottom: 5%;
+}
+
+
+
+
+
+

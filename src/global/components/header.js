@@ -9,6 +9,7 @@ export default function Header() {
                 <div className="nav-left">
                     <FontAwesomeIcon className="nav-logo" icon={faAirbnb} />
                     <h3>airbnb</h3>
+
                 </div>
             </nav>
     )
